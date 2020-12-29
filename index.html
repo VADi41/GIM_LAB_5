@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Лабораторна Робота №5 - Задерацький</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="jquery.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+</head>
+<body>
+  <div id="navbar">
+        <p id="t">Лабораторна Робота №5</p>
+        <a href="#mapCont" class="navA">Карта</a>
+        <a href="#videoCont" class="navA">Відео</a>
+        <a href="#audioCont" class="navA">Аудіо</a>
+        <a href="#jsCont" class="navA">jQuery</a>
+  </div>
+
+  <div id="main">
+
+    <div id="mapCont">
+      <p class="contP">Карта</p>
+      <div id="map">
+        <div id="mapGoogle">
+          <iframe width="100%" height="500px" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=ukraine%2Ckiev+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/ru/">https://embedgooglemaps.com/ru/</a> & <a href="https://iamsterdamcard.it">iamsterdamcard</a></small></div>
+              <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+        </div>
+      </div>
+    </div>
+
+    <div id="videoCont">
+      <p class="contP">Відео</p>
+      <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mPZkdNFkNps" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div id="audioCont">
+      <p class="contP">Аудіо</p>
+      <div id="audio">
+        <audio controls src="audio.mp3">
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+      </div>
+    </div>
+    <div id="jsCont">
+      <p class="contP">jQuery</p>
+      <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+          <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+          </p>
+          <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+
+      <div class="jqueri-ui_test item date">
+			  <p class="medio">Date:&nbsp <input type="text" id="datepicker" title="DATE PICKER"></p>
+		</div>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <p style="color: white; font-size: 24px; font-weight: bold;">Задерацький Вадим</p>
+  </div>
+</body>
+</html>
